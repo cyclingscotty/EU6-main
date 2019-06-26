@@ -1,0 +1,67 @@
+* {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #E4FFE6
+}
+
+
+/*headings*/
+
+h1, h1 span     {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #B03232;
+}
+
+h2, h2 span     {
+    font-size: 1.25rem;
+    
+}
+
+
+/*Sections*/
+
+#buttonSection p    {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#buttonSection button    {
+    font-size: 1.5rem;
+    color: brown;
+}
+
+
+#innerButtons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+/*Buttons*/
+
+#outerButton button     {
+    color: aquamarine;
+    background-color: coral;
+    border-color: darkseagreen;
+    margin: 15px;
+}
+
+#innerButtons button     {
+    background-color: crimson;
+    font-size: 1rem;
+}
+
+h1 span, h2 span     {
+    color: fuchsia;
+}
+
+
+#innerButtons button:hover, #outerButton button:hover    {
+    color: lightgrey;
+    transition-duration: 500ms;
+
+}
