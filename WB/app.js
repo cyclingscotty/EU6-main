@@ -17,7 +17,7 @@ document.querySelector("html").addEventListener('click', whichButton);
 function whichButton(event){
     if(event.target.className == "topLevelButton"){
         let xx = event.target.id.slice(event.target.id.length-1);
-        document.getElementById('displayText').setAttribute("src", "images/pic"+xx+".png");
+        document.getElementById('displayText').setAttribute("src", "images/pic"+xx+".jpg");
         clearText();
     } else if(event.target.className == "textPic"){
         let yy = event.target.src.slice(event.target.src.length-5, event.target.src.length-4);
