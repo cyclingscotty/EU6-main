@@ -33,7 +33,6 @@ const buttons = ["show answer", "next"];
 document.querySelector("html").addEventListener('click', whichButton);
 
 function whichButton(event) {
-
     if (event.target.className == "topLevelButton") {
         let xx = event.target.id.slice(event.target.id.length - 1);
         document.getElementById('displayText').setAttribute("src", "images/pic" + xx + ".jpg");

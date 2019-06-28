@@ -7,12 +7,31 @@ h2     {
     font-family: cursive;
     font-size: 3rem;
     color: darkred;
-    margin: 25px;
+    margin: 5px;
+   
 }
 
 header     {
     color: blue;
     margin-bottom: 10px;
+}
+
+#fullQ,
+#fullA    {
+    
+}
+
+#fullQ     {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: coral;
+}
+
+#fullA     {
+    text-align: right;
+    margin-right: 25px;
+    color: green;
 }
 
 .lessonFlags,

@@ -58,7 +58,24 @@ function checkLanguageName(a) {
     let thislanguageName = document.getElementById('languageName' + a).value;
     if (checkWhichConst === thislanguageName) {
         document.getElementById('languageName' + a).style.color = "green";
+        askFullQ(a);
     }
+}
+
+function askFullQ(a){
+    document.getElementById('fullA').innerHTML = '';
+    let checkWhichConstC = eval("country" + a)["name"];
+    let checkWhichConstL = eval("country" + a)["language"];
+    let thisCountryName = document.getElementById('countryName' + a).value;
+    let thislanguageName = document.getElementById('languageName' + a).value;
+    if(checkWhichConstC === thisCountryName && checkWhichConstL === thislanguageName){
+        document.getElementById('fullQ').innerHTML= "What language do people speak in "+thisCountryName+"? <button id='fullQButton'>Show Answer</button>";
+        document.getElementById('fullQButton').addEventListener('click', function(){
+        document.getElementById('fullA').innerHTML = "In "+thisCountryName+", people speak "+thislanguageName+".";
+            document.getElementById('fullQButton').style.display = 'none';
+        });
+    }
+    
 }
 
 checkMouseClick();
