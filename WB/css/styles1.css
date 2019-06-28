@@ -1,0 +1,33 @@
+* {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2     {
+    font-family: cursive;
+    font-size: 3rem;
+    color: darkred;
+    margin: 25px;
+}
+
+header     {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.lessonFlags,
+.countryNames,
+.languageNames{
+    display: flex;
+    justify-content: space-around;
+}
+
+.countryNames input,
+.languageNames input {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.sixFlags img {
+    border: 2px solid gold;
+}

@@ -24,7 +24,7 @@ const questions4 = {
     "question3": "At first, how did she feel when she learned how to dive? <button class='answerButton' id='s4a3'>Answer</button>",
     "answer3": "At first, she felt nervous. <button class='nextButton' id='s4a4'>next</button>",
     "question4": "Now, does she like scuba diving? <button class='answerButton' id='s4a4'>Answer</button>",
-    "answer4": "Yes, she likes it now."
+    "answer4": "Yes, she likes it now.<button class='nextPage'>next</button>""
 }
 
 
@@ -55,6 +55,8 @@ function whichButton(event) {
         let askAQuest = "questions" + yy + ".question" + zz;
         console.log(askAQuest);
         document.querySelector('.Qq').innerHTML = eval(askAQuest);
+    } else if (event.target.className == "nextPage"){
+        window.location.href = "countries.html";
     }
 
 }
