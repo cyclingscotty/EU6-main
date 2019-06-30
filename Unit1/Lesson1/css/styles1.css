@@ -1,0 +1,54 @@
+*         {
+    font-size: 35px;
+    text-align: center;
+}
+
+h1     {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+/*fonts*/
+
+
+#exampleQandABox div {
+    text-align: left;
+    font-weight: 900;
+}
+
+/*Div layout*/
+
+#activities    {
+   display: flex;
+    flex-wrap: wrap;
+}
+
+#exampleQandABox {
+    background-color: #bef5bc;
+}
+
+#examples,
+.activitiesBigBox{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: auto 15px auto 15px;
+}
+
+#examplePic,
+.activityPics     {
+max-width: 25vw;
+max-height: 20vw;
+margin-right: 20px;
+}
+
+#exampleQandABox,
+.activityQandABox
+    {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+}
