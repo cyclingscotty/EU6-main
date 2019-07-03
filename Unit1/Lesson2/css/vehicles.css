@@ -1,0 +1,19 @@
+* {
+    font-size: 35px;
+    text-align: center;
+}
+
+#imagesSection img    {
+    width: 20vw;
+    height: auto;
+}
+
+.theQ,
+.theA{
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: lightpink;
+}

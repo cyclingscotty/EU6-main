@@ -40,3 +40,11 @@ h3, h5     {
     display: flex;
     justify-content: space-around;
 }
+
+#nextPageButton    {
+    display: block;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    background-color: lightcoral;  
+}

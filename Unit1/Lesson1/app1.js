@@ -3,15 +3,17 @@ const arr = [
     "Walk down the stairs and turn right.",
     "Walk around the fountain and go straight.",
     "Walk over the bridge and turn left.",
-    "Go under the train tracks and go straight.",
+    "Walk under the train tracks and go straight.",
     "Walk along the river and turn left."
 ]
 
-document.querySelector('body').addEventListener('click', function(){
+ document.querySelector('body').addEventListener('click', function(){
  if(event.target.className === 'activityPics'){
     let pressedButtonNumber = event.target.id.slice(8,9);
     checkAnswer(pressedButtonNumber);
- }
+ } else if (event.target.id === "nextPageButton"){
+               window.location.href="index2.html";
+               }
 });
 
 function checkAnswer(x){

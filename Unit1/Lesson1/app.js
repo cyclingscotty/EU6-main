@@ -51,7 +51,9 @@ function whichButton(event){
     buttonIDarr = buttonID.split(" ");
     buttonIDarrFirst = buttonIDarr[0]; 
     displayPerButton(buttonIDarrFirst)    
-    }
+    } else if (event.target.id === "nextPageButton"){
+               window.location.href="index1.html";
+               }
 }
 
 function displayPerButton(theButton){
