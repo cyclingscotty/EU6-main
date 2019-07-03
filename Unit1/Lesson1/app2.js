@@ -1,9 +1,15 @@
-var myData = [
+const myData = [
     "First, walk along the river and turn left. Then, walk under the train tracks and go straight.",
     "How do I get to the movie theater?",
     "First, walk around the fountain. Then, walk down the stairs and turn right.",
     "How do I get to the hotel?",
-    "First, walk walk up the street and turn right. Then, walk over the bridge and turn left."
+    "First, walk up the street and turn right. Then, walk over the bridge and turn left."
+];
+
+const myAlts = [
+    "How do I get to the movie theatre?",
+    "First, walk around the fountain and go straight. Then, walk down the stairs and turn right.",
+    "First, walk along the river and turn right. Then, walk over the bridge and turn left."
 ];
 
 document.getElementById('mainBox').addEventListener('click', whichButton);
@@ -37,10 +43,13 @@ function one(x){
 
 function two(x){
     let storeda = myData[1];
+    let storedaAlt = myAlts[0];
     let storedb = myData[2];
+    let storedbAlt = myAlts[1];
     let typeda = document.getElementById('input2').value;
     let typedb = document.getElementById('input3').value;
-    if (storeda == typeda && storedb == typedb) {
+    
+    if ((storeda == typeda || storedaAlt == typeda) && (storedb == typedb || storedbAlt == typedb)) {
         goGreen(x);
     } else {
         goRed(x);
@@ -51,9 +60,10 @@ function two(x){
 function three(x){
     let storeda = myData[3];
     let storedb = myData[4];
+    let storedbAlt = myAlts[2];
     let typeda = document.getElementById('input4').value;
     let typedb = document.getElementById('input5').value;
-    if (storeda == typeda && storedb == typedb) {
+    if (storeda == typeda && (storedb == typedb || storedbAlt == typedb)) {
         goGreen(x);
     } else {
         goRed(x);

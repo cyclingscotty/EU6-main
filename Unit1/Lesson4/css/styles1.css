@@ -1,0 +1,48 @@
+* {
+    font-size: 35px;
+}
+
+#scrambledWords    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#scrambledWords div  {
+    display: flex;
+    justify-content: center;
+    width: 27vw;
+}
+
+#spaceNoteDiv    {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    height: 70px;
+}
+
+#spaceNote    {
+    font-size: 0.6rem;
+    margin: 5px;
+}
+
+#bottomBox    {
+    display: flex;
+    flex-wrap: nowrap;    
+}
+
+#clues    {
+    width: 70%;
+}
+
+#clues div     {
+    font-size: 0.99rem;
+    margin-top: 5px;    
+}
+
+#answers    {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}

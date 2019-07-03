@@ -5,7 +5,7 @@ const arr = [
     "Walk over the bridge and turn left.",
     "Walk under the train tracks and go straight.",
     "Walk along the river and turn left."
-]
+];
 
  document.querySelector('body').addEventListener('click', function(){
  if(event.target.className === 'activityPics'){
