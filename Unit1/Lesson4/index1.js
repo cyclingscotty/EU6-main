@@ -57,7 +57,7 @@ function checkSpelling(){
         console.log(typedWord);
         if(storedWord == typedWord || typedWord == "honour" || typedWord == "honour (honor)"){
             document.querySelector('#word'+(i+1)).style.backgroundColor = "lightgreen";
-            if(typedWord == "honour" || typedWord == "honour (honor)"){
+            if(typedWord == "honour" || typedWord == "honour (honor)" || typedWord == "honor"){
             if(document.querySelector('#word5').style.backgroundColor = "lightgreen"){
                 document.querySelector('#input5').value = "honour (honor)";
             }

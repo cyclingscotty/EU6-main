@@ -1,0 +1,20 @@
+* {
+    font-size: 40px;
+}
+
+
+
+#mainSection    {
+    display: flex;
+}
+
+.typedWords {
+    visibility: hidden;
+}
+
+#checkButton    {
+    background-color: orange;
+    position: fixed;
+    bottom: 0;
+    right: 0;    
+}

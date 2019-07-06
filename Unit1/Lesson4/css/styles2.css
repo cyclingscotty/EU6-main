@@ -1,0 +1,47 @@
+* {
+    font-size: 3vw;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+section {
+    display: flex;
+}
+
+#leftBox    {
+    width: 25%;    
+}
+
+#leftBoxImg  {
+    width: 90%;
+    height: 20vw;
+}
+
+#rightBox    {
+ width: 75%;
+}
+
+#rightBoxP    {
+    text-align: justify;
+    font-size: 1.0rem;
+}
+
+#rightBoxA   {
+   display: flex;
+    justify-content: space-around;
+}
+
+#answerSection    {
+    display: flex;
+    align-items: center;
+}
+
+#answerSection button     {
+    height: 4vw;
+    
+}

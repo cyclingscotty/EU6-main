@@ -1,0 +1,46 @@
+*     {
+    font-size: 40px;
+    
+    
+}
+
+.blue    {
+    color: dodgerblue;
+}
+
+
+
+header     {
+    display: block;
+    text-align: center
+    }
+
+h1, h1 .blue {
+    font-size: 1.5rem;
+}
+
+/*main section*/
+
+#questions    {
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;  
+    justify-content: center;
+}
+#questions img     {
+    width: 12vw;
+    height: auto;
+}
+
+.qanda    {
+    align-self: center;
+}
+
+#nextPage    {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
