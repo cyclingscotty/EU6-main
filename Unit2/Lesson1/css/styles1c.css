@@ -1,0 +1,65 @@
+*     {
+ font-size: 35px;  
+    text-align: center;
+}
+
+header div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+h1, h2     {
+    margin: 5px;
+}
+
+#iHave     {
+    justify-self: flex-start;
+}
+
+#mainBox    {
+    width: 94vw;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainLeft     {
+    width: 40%;
+}
+#mainRight    {
+    min-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#iHaveBox     {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#butTheyBox    {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footerBox     {
+   display: block;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer     {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer button     {
+    background-color: coral;
+}
+
+
