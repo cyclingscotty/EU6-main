@@ -27,7 +27,7 @@ const images = [
 
 document.querySelector('body').addEventListener('click', function(){
     if(event.target.id == 'nextPage'){
-        window.location.href='part1d.html';
+        window.location.href='part1e.html';
     } else if(event.target.className ==='numberB'){
         whichButton(event);
     }
