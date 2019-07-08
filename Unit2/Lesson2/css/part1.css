@@ -1,0 +1,20 @@
+*     {
+    font-size: 35px;
+    text-align: center;
+}
+
+.vocabRows     {
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vocabRows p {
+    margin: 5px;
+}
+
+.vocabCell     {
+    width: 33vw;
+} 
