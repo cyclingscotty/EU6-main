@@ -1,10 +1,10 @@
 const Idont = [
-    "I <span class='green'>don't have to</span> read textbooks, <span class='red'>but</span> my daugher <span class='red'>does</span>.",
-    "I <span class='green'>don't have to</span> pay bills, <span class='red'>but</span> my parents <span class='red'>do</span>.",
-    "I <span class='green'>don't have to</span> write a report, <span class='red'>but</span> my daughter <span class='red'>does</span>.",
-    "I <span class='green'>don't have to</span> scrub the sink, <span class='red'>but</span> my parents <span class='red'>do</span>.",
-    "I <span class='green'>don't have to</span> go to bed early, <span class='red'>but</span> my son <span class='red'>does</span>.",
-    "I <span class='green'>don't have to</span> repair the house, <span class='red'>but</span> my parents <span class='red'>do</span>."
+    "I <span class='green'>don't have to</span> read textbooks, but my daugher <span class='red'>does (have to)</span>.",
+    "I <span class='green'>don't have to</span> pay bills, but my parents <span class='red'>do (have to)</span>.",
+    "I <span class='green'>don't have to</span> write a report, but my daughter <span class='red'>does (have to)</span>.",
+    "I <span class='green'>don't have to</span> scrub the sink, but my parents <span class='red'>do (have to)</span>.",
+    "I <span class='green'>don't have to</span> go to bed early, but my son <span class='red'>does (have to)</span>.",
+    "I <span class='green'>don't have to</span> repair the house, but my parents <span class='red'>do (have to)</span>."
 ];
 
 const imgs = [

@@ -3,6 +3,23 @@
     text-align: center;
 }
 
+h4 {
+    width: 90vw;
+    font-size: 3vw;
+    margin: 5px;
+}
+
+#p1     {
+    margin: 10px;
+    height: 160px;
+}
+
+#inst     {
+    font-size: 3vw;
+    margin: 2px;
+    height: 45px;
+}
+
 body     {
     display: flex;
     justify-content: space-between;
@@ -20,8 +37,8 @@ body     {
 }
 
 header div img     {
-    width:75%;
-    height: 40%;
+    width:62%;
+    height: 30%;
 }
 
 header div  {
@@ -49,6 +66,24 @@ header div p {
     height: 330px;
 }
 
+#imageBox img     {
+    width: 60%;
+    height: auto;
+}
+
+#imageBoxText     {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#imageBox p {
+    font-size: 2vw;
+    margin: 5px;
+}
+
+
+
 #textBox     {
     width: 70%;
     display: flex;
@@ -67,4 +102,9 @@ header div p {
 button {
     color: lightblue;
     background-color: lightcoral;
+}
+
+#checkTheInput {
+    position: fixed;
+    bottom: 5px;
 }
