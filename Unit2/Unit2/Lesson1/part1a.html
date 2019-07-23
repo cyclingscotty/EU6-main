@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling</title>
+    <link rel="stylesheet" href="css/styles1a.css">
+</head>
+
+<body>
+
+
+    <section id="mainSection">
+        <div id="mainSectionLeft">
+            <div id="mainImage">
+                <img src="images/responsibilities.jpg" width="640", height="480" usemap="#respMap">
+                <map name="respMap">
+                    
+                    <area shape="rect" coords="0,0,90,150" onclick="showTextArea(4)">
+                    <area shape="rect" coords="250,150,330,290" onclick="showTextArea(1)">
+                    <area shape="rect" coords="100,290,330,350" onclick="showTextArea(2)">
+                    <area shape="rect" coords="350,270,420,450" onclick="showTextArea(3)">
+                    <area shape="rect" coords="90,120,190,280" onclick="showTextArea(5)">
+                    <area shape="rect" coords="460,110,630,450" onclick="showTextArea(6)">
+                </map>
+            </div>
+        </div>
+        <div id="mainSectionRight">
+            <div id="headingSection">
+                <h1>Spell the Phrases</h1>
+            </div>
+            <div id="spellingSection">
+            <div class="thisDiv">1 -<input class="typedWords" id="word1" type="text" size="20"></div>
+            <div class="thisDiv">2 -<input class="typedWords" id="word2" type="text" size="20"></div>
+            <div class="thisDiv">3 -<input class="typedWords" id="word3" type="text" size="20"></div>
+            <div class="thisDiv">4 -<input class="typedWords" id="word4" type="text" size="20"></div>
+            <div class="thisDiv">5 -<input class="typedWords" id="word5" type="text" size="20"></div>
+            <div class="thisDiv">6 -<input class="typedWords" id="word6" type="text" size="20"></div>
+            </div>
+        </div>
+
+    </section>
+    
+    <button id="checkButton" onclick="checkWords()">Check</button>
+</body>
+
+<script src="part1a.js"></script>
+
+</html>
