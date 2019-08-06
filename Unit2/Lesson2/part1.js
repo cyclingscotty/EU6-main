@@ -7,7 +7,7 @@ let imgSrc = [
     'https://cdn.timesmedia.co.id/images/2018/11/01/begadang.jpg',
     'https://herviewfromhome.com/wp-content/uploads/2018/02/shutterstock_506818078.jpg',
     'https://img1.grunge.com/img/gallery/what-happens-to-your-body-when-you-watch-a-scary-movie/intro-1514474000.jpg',
-    'https://amp.businessinsider.com/images/5637c711dd0895610a8b4643-320-240.jpg',
+    'https://www.yoyochinese.com/attachment/upload/blog/image/ktv.png',
     'https://static.onecms.io/wp-content/uploads/sites/38/2014/11/12230611/monkey_business_images_9.jpg'
 ]
 
