@@ -1,0 +1,17 @@
+* {
+    font-size: 40px
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.endParts img {
+    width: 100%;
+}
