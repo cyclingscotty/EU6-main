@@ -1,0 +1,70 @@
+* {
+    font-size: 28px;
+}
+
+/* Buttons */
+
+
+#button1 {
+    text-align: center;
+}
+
+button {
+    background-color: orangered;
+    border: green solid 5px;
+}
+
+/* IDs */
+
+
+#explain1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#section1,
+#section2 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+#section2 {
+    width: 70vw;
+}
+
+#section1 div,
+#section2 div {
+    border: solid 2px;
+    margin: 5px;
+}
+
+#section1 p {
+    text-align: center;
+    margin: 2px;
+}
+
+#section2 p {
+    margin: 2px;
+}
+
+
+/* CLASSES */
+
+.category {
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: royalblue;
+}
+
+.example {
+    color: lightgray;
+}
+
+.yes {
+    color: green;
+}
+
+.no {
+    color: red;
+}
