@@ -1,0 +1,16 @@
+* {
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#maths-symbols {
+    height: 400px;
+    width: 400px;
+    background: 
+        linear-gradient(
+            rgba(255,0,0,0.6), 
+            rgba(255,0,0,0.8)
+        ), 
+        url("math-symbols.jpg"); 
+}

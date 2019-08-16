@@ -10,6 +10,11 @@
 #buttons {
     display: flex;
     flex-direction: column;
+    width: 5vw;
+}
+
+#storyParts {
+    width:95%
 }
 
 .endParts img {
