@@ -3,14 +3,62 @@
     text-align: center;
     
 }
-
+/* BACKGROUND */
 #maths-symbols {
-    height: 400px;
-    width: 400px;
+    height: 100vh;
+    width: 100vw;
+    
     background: 
+        
         linear-gradient(
-            rgba(255,0,0,0.6), 
-            rgba(255,0,0,0.8)
+            rgba(255,255,255,0.7), 
+            rgba(255,255,255,0.7)
         ), 
-        url("math-symbols.jpg"); 
+        url("https://cyclingscotty.github.io/EU6-main/Unit2/Lesson4/images/maths-symbols.jpg"); 
+    
+    background-size: 100vw 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 55px;
+}
+
+
+
+.rowBox {
+    width: 30vw;
+}
+
+.clue {
+    background-color: rgba(234, 234, 234, 0.5);
+    font-size: 2rem;;
+    font-weight: 400;
+}
+
+.answ {
+    background-color: rgba(181, 235, 181, 0.49);
+    font-size: 1.5rem;;
+    font-weight: 400;
+}
+
+#symbols {
+display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.symbols {
+    width: 40%;
+}
+
+#mainArticle {
+    justify-content: center;
 }

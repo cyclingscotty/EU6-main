@@ -29,6 +29,11 @@ function showSentences(x){
             paragraphNo[i].innerHTML = theSentenceNumber[x-1];
             
             if(i == 2 && x == 3){
+               let HideFooterButtons = document.getElementsByClassName('footerNoButton');
+                for(let ii = 0; ii < HideFooterButtons.length; ii++){
+                    HideFooterButtons[ii].style.visibility = "hidden";
+                }
+                document.getElementById('nextPage').style.visibility = "visible";
                 document.getElementById('press').addEventListener('click', function(){
                     document.getElementById('press').style.display='none';
                     paragraphNo[2].innerHTML = special[0];

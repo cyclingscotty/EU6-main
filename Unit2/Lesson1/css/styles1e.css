@@ -68,3 +68,9 @@ button {
     color: lightblue;
     background-color: lightcoral;
 }
+
+#footerBox {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
