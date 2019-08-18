@@ -60,5 +60,35 @@ display: flex;
 }
 
 #mainArticle {
+    display: flex;
     justify-content: center;
+}
+
+#mainArticle div {
+    display: flex;
+    flex-direction: column;
+    justify-content: scenter;
+    width: 80vw;
+
+}
+
+#mainArticle img {
+    text-align: center;
+    
+    height: auto;
+}
+
+
+#mathQuestions {
+    display: flex;
+    justify-content: center;
+}
+
+#mathQuestions p {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mathQuestionsImage {
+    width:96vw;
 }
