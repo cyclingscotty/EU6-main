@@ -109,6 +109,9 @@ function showProblems(){
     theMathsQuestions.style.display = "none";
     mainArticle.style.display = "none";
     theMathProblems.style.display = "flex";
+    document.querySelector('#mathProblems button').addEventListener('click', function(){
+        window.location.href = "https://cyclingscotty.github.io/EU6-main/index.html"
+    })
 }
 
 hideAtSetup();
