@@ -8,7 +8,7 @@ let myData = {
     over: {
         "vocab": "over the bridge",
         "explanation": "'Over' can mean you are moving on the bridge (e.g. walking over) or high above it (e.g. the bird flew over).",
-        "example": "E.g. To visit my grandmother, I must take the bus <span class='wordUse'>over</span> the River.",
+        "example": "E.g. To visit my grandmother, I must take the bus <span class='wordUse'>over</span> the river.",
         "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/35/09/b2/walking-on-bridge.jpg"
     },
     under:  {
